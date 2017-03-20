@@ -79,6 +79,8 @@ public class Page2Fragment extends Fragment implements Colors {
         mChasingDotsDrawable.start();
     }
 
+
+
     @Override
     public void onStop() {
         super.onStop();
