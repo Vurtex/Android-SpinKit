@@ -8,10 +8,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
     TabLayout mTabLayout;
     ViewPager mViewPager;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,5 +45,4 @@ public class MainActivity extends AppCompatActivity {
         });
         mTabLayout.setupWithViewPager(mViewPager);
     }
-
 }
